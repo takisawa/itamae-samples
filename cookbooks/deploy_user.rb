@@ -9,3 +9,9 @@ user 'deploy' do
   gid 'deploy'
   create_home true
 end
+
+remote_file '/etc/sudoers.d/deploy' do
+  owner 'root'
+  group 'root'
+  mode '0400'
+end
