@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-include_recipe '../cookbooks/deploy_user.rb'
-include_recipe '../cookbooks/timezone.rb'
+include_recipe '../cookbooks/user/default.rb'
+include_recipe '../cookbooks/timezone/default.rb'
