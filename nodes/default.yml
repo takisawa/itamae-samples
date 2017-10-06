@@ -1,0 +1,4 @@
+rbenv:
+  versions:
+    - 2.4.2
+  global: 2.4.2
